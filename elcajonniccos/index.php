@@ -31,107 +31,12 @@
     <section class="seccion contenedor">
         <h2>Categorias de Productos</h2>
 
-        <div class="contenedor-anuncios">
-            <div class="anuncio">
-                <picture>
-                    <source srcset="build/img/shein.webp" type="image/webp">
-                    <source srcset="build/img/shein.jpg" type="image/jpeg">
-                    <img loading="lazy" src="build/img/shein.jpg" alt="shein">
-                </picture>
+        <?php 
+            
+            $limite = 3;
+            include 'includes/templates/anuncios.php';
 
-                <div class="contenido-anuncio">
-                    <h3>SHEIN</h3>
-                    <p>Articulos a la moda y en tendencia que se adaptan a cualquier estilo y personalidad</p>
-                    <p class="precio">$3,0000,000</p>
-
-                    <ul class="iconos-caracteristicas">
-                        <li>
-                            <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
-                            <p>4</p>
-                        </li>
-                    </ul>
-
-                    <a href="anuncio.php" class="boton-amarillo-block">
-                        Ver Articulos
-                    </a>
-                </div><!--.contenido-anuncio-->
-            </div><!--anuncio-->
-
-            <div class="anuncio">
-                <picture>
-                    <source srcset="build/img/joyeria.webp" type="image/webp">
-                    <source srcset="build/img/joyeria.jpg" type="image/jpeg">
-                    <img loading="lazy" src="build/img/joyeria.jpg" alt="anuncio">
-                </picture>
-
-                <div class="contenido-anuncio">
-                    <h3>Joyeria en acero inoxidable</h3>
-                    <p>Los mejores accesorios de plata y joyeria para cualquier ocasion ya sea un evento especial o de uso diario</p>
-                    <p class="precio">$3,0000,000</p>
-
-                    <ul class="iconos-caracteristicas">
-                        <li>
-                            <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
-                            <p>4</p>
-                        </li>
-                    </ul>
-
-                    <a href="anuncio.php" class="boton-amarillo-block">
-                        Ver Articulos
-                    </a>
-                </div><!--.contenido-anuncio-->
-            </div><!--anuncio-->
-
-            <div class="anuncio">
-                <picture>
-                    <source srcset="build/img/personales.webp" type="image/webp">
-                    <source srcset="build/img/personales.jpg" type="image/jpeg">
-                    <img loading="lazy" src="build/img/personales.jpg" alt="anuncio">
-                </picture>
-
-                <div class="contenido-anuncio">
-                    <h3>Accesorios </h3>
-                    <p>Variedad de accesorios para usar en el dia a dia para todas las estaciones del año</p>
-                    <p class="precio">$3,0000,000</p>
-
-                    <ul class="iconos-caracteristicas">
-                        <li>
-                            <img class="icono" loading="lazy" src="build/img/icono_wc.svg" alt="icono wc">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" loading="lazy" src="build/img/icono_estacionamiento.svg" alt="icono estacionamiento">
-                            <p>3</p>
-                        </li>
-                        <li>
-                            <img class="icono" loading="lazy" src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
-                            <p>4</p>
-                        </li>
-                    </ul>
-
-                    <a href="anuncio.php" class="boton-amarillo-block">
-                        Ver Articulos
-                    </a>
-                </div><!--.contenido-anuncio-->
-            </div><!--anuncio-->
-
-        </div> <!--.contenedor-anuncios-->
+        ?>
 
         <div class="alinear-derecha">
             <a href="anuncios.php" class="boton-verde">Ver Todas</a>

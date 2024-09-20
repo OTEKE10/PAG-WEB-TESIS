@@ -22,15 +22,17 @@
                 <div class="derecha">
                     <img class="dark-mode-boton" src="/build/img/dark-mode.svg">
                     <nav class="navegacion">
-                        <a href="nosotros.php">Sobre Nosotros</a>
-                        <a href="anuncios.php">Productos</a>
-                        <a href="blog.php">Blog</a>
-                        <a href="contacto.php">Contacto</a>
+                        <a href="../nosotros.php">Sobre Nosotros</a>
+                        <a href="../anuncios.php">Productos</a>
+                        <a href="../blog.php">Blog</a>
+                        <a href="../contacto.php">Contacto</a>
                     </nav>
                 </div>
    
                 
             </div> <!--.barra-->
+
+            
 
             <h1>Hecho con amor. De todo un poco</h1>
         </div>

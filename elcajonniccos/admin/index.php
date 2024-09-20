@@ -1,12 +1,51 @@
 <?php
     
+    //IMportar la conexion
 
-    //echo "<pre>";
-    //var_dump($_GET);
-    //echo "</pre>";
-    $resultado= $_GET['resultado'] ?? null;
-    require '../includes/funciones.php';
+    require '../includes/config/database.php';
     
+    $db = conectarDB();
+
+    //Escribir el uery
+    $query = "SELECT * FROM productos";
+
+    //Consultar la BD
+    $resultadoConsulta = mysqli_query($db, $query);
+
+
+
+    //Muestra mensaje condicional
+    $resultado= $_GET['resultado'] ?? null;
+
+    if($_SERVER['REQUEST_METHOD'] === 'POST'){
+        $id = $_POST['id'];
+        $id = filter_var($id, FILTER_VALIDATE_INT );
+
+        if($id) {
+
+            //Eliminar archivo
+            $query = "SELECT imagen FROM productos WHERE id = ${id}";
+            $resultado = mysqli_query($db, $query);
+            $producto = mysqli_fetch_assoc($resultado);
+
+            unlink('../imagenes/' . $producto['imagen']);
+            
+
+
+            //Eliminar propiedad
+            $query = "DELETE FROM productos WHERE id = ${id}";
+            $resultado = mysqli_query($db, $query);
+
+            if($resultado) {
+                header('location: /admin?resultado=3');
+            }
+        }
+        
+        
+
+    }
+
+    require '../includes/funciones.php';
     incluirTemplate('header');
 
 ?>
@@ -15,10 +54,14 @@
         <h1>Administrador</h1>
         <?php if( intval ($resultado) === 1): ?>
             <p class="alerta exito">Producto creado correctamente</p>
+        <?php elseif(intval ($resultado) === 2): ?>
+            <p class="alerta exito">Producto actualizado correctamente</p>
+            <?php elseif(intval ($resultado) === 3): ?>
+            <p class="alerta exito">Producto eliminado correctamente</p>
         <?php endif; ?>
+
             
         <a href="/admin/propiedades/crear.php" class="boton boton-verde">Nuevo Producto</a>
-        <a href="/admin/propiedades/borrar.php" class="boton boton-verde">Borrar Producto</a>
         <a href="/admin/propiedades/actualizar.php" class="boton boton-verde">Actualizar Producto</a>
 
 
@@ -35,15 +78,24 @@
 
             </thead>
 
-            <tbody>
+            <tbody> <!-- Mostar los resultados -->
+                <?php while( $producto = mysqli_fetch_assoc($resultadoConsulta)): ?>
                 <tr>
-                    <td>1</td>
-                    <td>Blusa</td>
-                    <td>$125</td>
-                    <td> <img src="../imagenes/4df72f139a30bf19b7c920c3ed719291.jpg" class="imagen-tabla"></td>
+                    <td> <?php echo $producto ['id']; ?></td>
+                    <td> <?php echo $producto ['titulo']; ?></td>
+                    <td>Q <?php echo $producto ['precio']; ?></td>
+                    <td> <img src="../imagenes/<?php echo $producto ['imagen']; ?>" class="imagen-tabla"></td>
                     <td>
-                        <a href="#" class="boton-rojo-block">Eliminar</a>
-                        <a href="#" class="boton-verde-block">Actualizar</a>
+
+                        <form method="POST" class="w-100">
+
+                            <input type="hidden" name="id" value="<?php echo $producto['id']; ?>">
+
+
+                            <input type="submit"  class="boton-rojo-block" value="Eliminar">
+                        </form>
+                       
+                        <a href="admin/propiedades/actualizar.php?id=<?php echo $producto ['id']; ?>" class="boton-amarillo-block">Actualizar</a>
 
                     </td>
                     
@@ -51,6 +103,7 @@
 
 
                 </tr>
+                <?php endwhile; ?>
             </tbody>
 
         </table>
@@ -58,5 +111,11 @@
 
     
 <?php
+
+    //Cerrar la conexion
+
+    mysqli_close($db);
+
+
     incluirTemplate('footer');
-?>   
+?>
