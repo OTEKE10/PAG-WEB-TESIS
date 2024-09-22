@@ -1,4 +1,12 @@
 <?php
+
+    require '../includes/funciones.php';
+    $auth = estaAutenticado();
+
+    if(!$auth) {
+    header('Location: /');
+    }
+
     
     //IMportar la conexion
 
@@ -45,7 +53,7 @@
 
     }
 
-    require '../includes/funciones.php';
+    
     incluirTemplate('header');
 
 ?>
@@ -62,7 +70,7 @@
 
             
         <a href="/admin/propiedades/crear.php" class="boton boton-verde">Nuevo Producto</a>
-        <a href="/admin/propiedades/actualizar.php" class="boton boton-verde">Actualizar Producto</a>
+        
 
 
         <table class="propiedades">
