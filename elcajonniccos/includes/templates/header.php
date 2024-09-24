@@ -34,7 +34,6 @@
                 </div>
 
                 <div class="derecha">
-                    <img class="dark-mode-boton" src="/build/img/dark-mode.svg">
                     <nav class="navegacion">
                         <a href="../nosotros.php">Sobre Nosotros</a>
                         <a href="../anuncios.php">Productos</a>
