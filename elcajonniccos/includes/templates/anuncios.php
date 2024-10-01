@@ -28,7 +28,7 @@ $resultado = mysqli_query($db, $query);
                     <p><?php echo $producto['descripcion'];?></p>
                     <p class="precio">Q<?php echo $producto['precio'];?></p>
 
-                    <a href="anuncio.php?id=<?php echo $producto['id'];?>" class="boton-amarillo-block">
+                    <a href="anuncio.php?id=<?php echo $producto['id'];?>" class="btn btn-ver">
                         Ver Articulos
                     </a>
                 </div><!--.contenido-anuncio-->

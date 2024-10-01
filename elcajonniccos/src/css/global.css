@@ -151,6 +151,12 @@ fieldset {
   color: #b70f0f;
 }
 
+.btn-warning,
+#btn-warning {
+  background: #9f9f5a !important;
+  color: white !important;
+}
+
 .btn-editar {
   color: #9f9f5a !important;
 }
@@ -171,4 +177,44 @@ fieldset {
 
 .flex-center {
   justify-content: center;
+}
+
+
+.social-links>a {
+  color: #7f3d6d;
+  font-size: 2.5rem;
+}
+
+.resumen-propiedad {
+  padding: 2rem;
+}
+
+.btn-whats {
+  color: green !important;
+  font-size: 3rem;
+}
+
+.btn-ver {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  color: white;
+  background: #ad6599;
+  font-weight: bold;
+  text-align: center;
+  color: white !important;
+}
+
+
+.anuncio {
+  background: #eddce9 !important;
+  color: pink !important;
+}
+
+
+
+.contenido-anuncio>p,
+.contenido-anuncio>h3 {
+  color: black !important;
 }

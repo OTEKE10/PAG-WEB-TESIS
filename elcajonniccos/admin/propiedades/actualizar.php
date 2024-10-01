@@ -189,7 +189,9 @@
     <main class="contenedor seccion">
         <h1>Actualizar Producto</h1>
 
-        <a href="/admin" class="boton boton-verde">Volver</a>
+        <a href="/admin" class="btn btn-pink-outline">Volver</a>
+<br>
+<br>
 
         <?php foreach($errores as $error): ?>  
         <div class="alerta error">
@@ -204,13 +206,13 @@
                 <legend>Informacion General</legend>
 
                 <label for="titulo">Titulo:</label>
-                <input type="text" id="titulo" name="titulo" placeholder="Titulo Producto" value="<?php echo $titulo; ?>">
+                <input class="form-control" type="text" id="titulo" name="titulo" placeholder="Titulo Producto" value="<?php echo $titulo; ?>">
 
                 <label for="precio">Precio:</label>
-                <input type="number" id="precio" name="precio" placeholder="Precio Producto" value="<?php echo $precio; ?>"> 
+                <input class="form-control" type="number" id="precio" name="precio" placeholder="Precio Producto" value="<?php echo $precio; ?>"> 
 
                 <label for="imagen">Imagen:</label>
-                <input type="file" id="imagen" accept="image/jpeg, image/png" name="imagen">
+                <input class="form-control" type="file" id="imagen" accept="image/jpeg, image/png" name="imagen">
 
                 <img src="/imagenes/<?php echo $imagenProducto; ?>" class="imagen-small" >
                 
@@ -224,7 +226,7 @@
                 <legend>Informacion Producto</legend>
 
                 <label for="cantidad">Disponibilidad:</label>
-                <input type="number" id="cantidad" name="cantidad" placeholder="Ej: 20" min="1" max="20" value="<?php echo $cantidad; ?>">
+                <input class="form-control" type="number" id="cantidad" name="cantidad" placeholder="Ej: 20" min="1" max="20" value="<?php echo $cantidad; ?>">
 
 
             </fieldset>
@@ -235,7 +237,7 @@
 
             
 
-            <select name="vendedor">
+            <select name="vendedor" class="form-select">
             <option value="">Selecciona vendedor</option>
             <?php while($row = mysqli_fetch_assoc($resultado) ): ?>
                 <option <?php echo $vendedores_id === $row['vendedores_id'] ? 'selected' : ''; ?> value="<?php echo $row['vendedores_id']; ?>"> <?php echo $row['nombre'] . " " . $row['apellido']; ?> </option>
@@ -245,7 +247,7 @@
             </select>
             </fieldset>
 
-            <input type="submit" value="Actualizar Producto" class="boton boton-verde">
+            <input type="submit" value="Actualizar Producto" class="btn btn-warning" id="btn-warning">
 
 
         </form>
