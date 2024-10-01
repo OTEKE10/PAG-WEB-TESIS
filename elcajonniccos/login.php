@@ -95,15 +95,15 @@
         <fieldset>
                 <legend>Correo y Contraseña</legend>
 
-                <label for="email">Correo</label>
-                <input type="email" name="email" placeholder="Tu Correo" id="email" required>
+                <label  for="email">Correo</label>
+                <input class="form-control" type="email" name="email" placeholder="Tu Correo" id="email" required>
 
                 <label for="password">Contraseña</label>
-                <input type="password" name="password" placeholder="Tu Contraseña" id="password" required>
+                <input class="form-control" type="password" name="password" placeholder="Tu Contraseña" id="password" required>
 
                 
         </fieldset>
-        <input type="submit" value="Iniciar sesion" class="boton boton-verde">
+        <input type="submit" value="Iniciar sesion" class="boton boton-login" id="btn-login">
 
 
 

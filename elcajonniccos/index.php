@@ -98,7 +98,7 @@
 
         <section class="testimoniales">
             <h3>Testimonios</h3>
-
+            <img src="https://mms.img.susercontent.com/3880b612112770f1bea2404c8b31ac23" class="testimonial-img" alt="">
             <div class="testimonial">
                 <blockquote>
                     El personal se comportó de una excelente forma, muy buena atención y los productos que me ofrecieron cumplen con todas mis expectativas.

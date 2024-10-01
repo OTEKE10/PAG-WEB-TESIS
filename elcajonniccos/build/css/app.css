@@ -507,15 +507,14 @@ h4 {
 
 /** UI **/
 .no-webp .inicio {
-  background-image: url(../img/header.jpg);
+  /* background-image: url(../img/header.jpg); */
 }
 
 .webp .inicio {
-  background-image: url(../img/header.webp);
+  /* background-image: url(../img/header.webp); */
 }
 
 .header {
-  background-color: gray;
   padding: 1rem 0 3rem 0;
 }
 .header.inicio {
@@ -548,7 +547,7 @@ h4 {
 
 .footer {
   padding: 2.5rem 0;
-  background-color: #333333;
+  background-color: #7f3d6d;
   margin-bottom: 0;
 }
 .footer .contenedor-footer {
@@ -634,7 +633,11 @@ h4 {
   }
 }
 .navegacion a:hover {
-  color: #71B100;
+  color: #e3b8d5;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 4px;
+  transition: 0.4s;
 }
 
 /** Menu de hamburguesa **/
@@ -761,7 +764,7 @@ h4 {
 }
 
 .informacion-meta span {
-  color: #E08709;
+  color: #751b57;
 }
 
 .texto-entrada a {
@@ -775,6 +778,7 @@ h4 {
   }
 }
 .texto-entrada h4 {
+  color: #c5b0be;
   margin: 0;
   line-height: 1.4;
 }
@@ -783,7 +787,7 @@ h4 {
   display: block;
   width: 15rem;
   height: 0.5rem;
-  background-color: #71B100;
+  background-color: rgba(159, 52, 123, 0.368627451);
   margin-top: 1rem;
 }
 
@@ -813,6 +817,9 @@ h4 {
   color: #FFFFFF;
 }
 
+.formulario input {
+  background: red !important;
+}
 .formulario p {
   font-size: 1.4rem;
   color: #333333;
