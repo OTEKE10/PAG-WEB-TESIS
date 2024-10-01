@@ -1,0 +1,220 @@
+.img-bg {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+  width: 100%;
+  height: 64%;
+  filter: brightness(0.7);
+}
+
+
+.title-hero {
+  color: #9f347b !important;
+}
+
+.testimonial {
+  background-color: rgba(255, 0, 102, 0.2);
+  font-size: 2.4rem;
+  padding: 2rem;
+  color: #FFFFFF;
+  backdrop-filter: blur(27px);
+  border-radius: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 0, 102, 0.2);
+  /* Fondo rosa semitransparente */
+  backdrop-filter: blur(27px);
+  /* Aplica el desenfoque */
+  border-radius: 2rem;
+  z-index: -1;
+  /* Coloca el pseudo-elemento detrás del contenido */
+}
+
+
+.testimonial-img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+
+.testimoniales {
+  position: relative;
+}
+
+.testimonial {
+  background: #9f347b40;
+  backdrop-filter: blur(7px);
+}
+
+
+.formulario>fieldset>.form-control,
+.form-select,
+textarea {
+  background: #e9dfe7 !important;
+  color: black !important;
+}
+
+.btn {
+  border: none;
+  border-radius: 7px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.fg-white {
+  color: white !important;
+}
+
+.boton-login,
+#btn-login,
+.btn-pink {
+  background: #7f3d6d !important;
+  background: #7f3d6d !important;
+  color: white;
+}
+
+
+.fa-solid {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+
+
+
+/* ADMIN */
+
+
+.propiedades>thead {
+  background: #ad6599b0 !important;
+}
+
+.btn-pink-outline {
+  border: 1px solid #7f3d6d;
+  color: white;
+  transition: .45s;
+}
+
+
+.btn-pink-outline:hover {
+  background-color: #7f3d6d !important;
+  color: white !important;
+  transition: .45s;
+}
+
+
+fieldset {
+  border-color: #ffcccc4d !important;
+  border-radius: 8px;
+}
+
+
+.alerta.exito {
+  background-color: #558303b0;
+  width: 28%;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  float: right;
+}
+
+
+.anuncio>img {
+  width: 100%;
+  height: 46%;
+  object-fit: cover;
+}
+
+
+
+.btn-icon {
+  background: #00000008;
+  border: none;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 3rem;
+}
+
+.btn-delete {
+  color: #b70f0f;
+}
+
+.btn-warning,
+#btn-warning {
+  background: #9f9f5a !important;
+  color: white !important;
+}
+
+.btn-editar {
+  color: #9f9f5a !important;
+}
+
+
+.flex-gap {
+  gap: 1rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+
+.flex-center {
+  justify-content: center;
+}
+
+
+.social-links>a {
+  color: #7f3d6d;
+  font-size: 2.5rem;
+}
+
+.resumen-propiedad {
+  padding: 2rem;
+}
+
+.btn-whats {
+  color: green !important;
+  font-size: 3rem;
+}
+
+.btn-ver {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  color: white;
+  background: #ad6599;
+  font-weight: bold;
+  text-align: center;
+  color: white !important;
+}
+
+
+.anuncio {
+  background: #eddce9 !important;
+  color: pink !important;
+}
+
+
+
+.contenido-anuncio>p,
+.contenido-anuncio>h3 {
+  color: black !important;
+}
