@@ -46,7 +46,7 @@
         //echo "</pre>";
 
         echo "<pre>";
-        var_dump($_FILES);
+        // var_dump($_FILES);
         echo "</pre>";
 
         
@@ -167,7 +167,8 @@
         <h1>CREAR</h1>
 
 
-        <a href="/admin" class="boton boton-verde">Volver</a>
+        <a href="/admin" class="btn btn-pink-outline">Volver</a>
+<br><br>
 
         <?php foreach($errores as $error): ?>  
         <div class="alerta error">
@@ -181,14 +182,14 @@
             <fieldset>
                 <legend>Informacion General</legend>
 
-                <label for="titulo">Titulo:</label>
-                <input type="text" id="titulo" name="titulo" placeholder="Titulo Producto" value="<?php echo $titulo; ?>">
+                <label for="titulo">Nombre:</label>
+                <input class="form-control" type="text" id="titulo" name="titulo" placeholder="Nombre del Producto" value="<?php echo $titulo; ?>">
 
                 <label for="precio">Precio:</label>
-                <input type="number" id="precio" name="precio" placeholder="Precio Producto" value="<?php echo $precio; ?>"> 
+                <input class="form-control" type="number" id="precio" name="precio" placeholder="Precio Producto" value="<?php echo $precio; ?>"> 
 
                 <label for="imagen">Imagen:</label>
-                <input type="file" id="imagen" accept="image/jpeg, image/png" name="imagen">
+                <input class="form-control" type="file" id="imagen" accept="image/jpeg, image/png" name="imagen">
                 
                 <label for="descripcion">Descripcion:</label>
                 <textarea id="descripcion" name="descripcion"><?php echo $descripcion; ?></textarea>
@@ -200,7 +201,7 @@
                 <legend>Informacion Producto</legend>
 
                 <label for="cantidad">Disponibilidad:</label>
-                <input type="number" id="cantidad" name="cantidad" placeholder="Ej: 20" min="1" max="20" value="<?php echo $cantidad; ?>">
+                <input type="number" class="form-control" id="cantidad" name="cantidad" placeholder="Ej: 20" min="1" max="20" value="<?php echo $cantidad; ?>">
 
 
             </fieldset>
@@ -211,17 +212,17 @@
 
             
 
-            <select name="vendedor">
+            <select name="vendedor" class="form-select">
             <option value="">Selecciona vendedor</option>
             <?php while($row = mysqli_fetch_assoc($resultado) ): ?>
                 <option <?php echo $vendedores_id === $row['vendedores_id'] ? 'selected' : ''; ?> value="<?php echo $row['vendedores_id']; ?>"> <?php echo $row['nombre'] . " " . $row['apellido']; ?> </option>
-        
+
             <?php endwhile; ?>    
 
             </select>
             </fieldset>
 
-            <input type="submit" value="Crear Producto" class="boton boton-verde">
+            <input type="submit" value="Crear Producto" class="btn btn-pink" id="btn-login">
 
 
         </form>

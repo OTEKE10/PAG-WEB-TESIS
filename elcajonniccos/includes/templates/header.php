@@ -1,5 +1,4 @@
 <?php
-    session_start();
 
     if(!isset($_SESSION)){
         session_start();
@@ -19,10 +18,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EL CAJON DE NICCOS</title>
     <link rel="stylesheet" href="/build/css/app.css">
+    <link rel="stylesheet" href="./../../src/css/global.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
     <header class="header inicio">
+        <img src="https://m.media-amazon.com/images/I/313r1gwkzwL._AC_UF894,1000_QL80_.jpg" class="img-bg" alt="">
         <div class="contenedor contenido-header">
             <div class="barra">
                 <a href="/">
@@ -50,6 +52,6 @@
 
             
 
-            <h1>Hecho con amor. De todo un poco</h1>
+            <h1 class="title-hero">Hecho con amor. De todo un poco</h1>
         </div>
     </header>

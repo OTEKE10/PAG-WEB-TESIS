@@ -69,7 +69,7 @@
         <?php endif; ?>
 
             
-        <a href="/admin/propiedades/crear.php" class="boton boton-verde">Nuevo Producto</a>
+        <a href="/admin/propiedades/crear.php" class="btn btn-pink fg-white"> <i class="fa-solid fa-circle-plus"></i> Nuevo Producto</a>
         
 
 
@@ -93,17 +93,17 @@
                     <td> <?php echo $producto ['titulo']; ?></td>
                     <td>Q <?php echo $producto ['precio']; ?></td>
                     <td> <img src="../imagenes/<?php echo $producto ['imagen']; ?>" class="imagen-tabla"></td>
-                    <td>
+                    <td class="d-flex flex-center flex-row flex-gap">
 
-                        <form method="POST" class="w-100">
+                        <form method="POST" class=" d-flex flex-center">
 
                             <input type="hidden" name="id" value="<?php echo $producto['id']; ?>">
 
 
-                            <input type="submit"  class="boton-rojo-block" value="Eliminar">
+                            <button title="Eliminar" type="submit" class="btn-icon btn-delete"><i class="fa-solid fa-trash-can"></i></button>
                         </form>
                        
-                        <a href="admin/propiedades/actualizar.php?id=<?php echo $producto ['id']; ?>" class="boton-amarillo-block">Actualizar</a>
+                        <a title="Editar" href="admin/propiedades/actualizar.php?id=<?php echo $producto ['id']; ?>" class="btn-icon btn-editar"><i class="fa-regular fa-pen-to-square"></i></a>
 
                     </td>
                     

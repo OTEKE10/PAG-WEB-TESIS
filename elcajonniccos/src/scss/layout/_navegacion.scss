@@ -66,8 +66,12 @@
         }
 
         &:hover {
-            color: $verde;
-        }
+            color: #e3b8d5;
+            text-decoration: underline;
+            text-decoration-thickness: 4px;
+            text-underline-offset: 4px;
+            transition: .40s;
+          }
     }
 }
 

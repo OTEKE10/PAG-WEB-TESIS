@@ -21,7 +21,7 @@
 
 .informacion-meta {
     span {
-        color: $amarillo;
+        color: #751b57;
     }
 }
 
@@ -35,6 +35,7 @@
         }
     }
     h4 {
+        color: #c5b0be;
         margin: 0;
         line-height: 1.4;
         &::after {
@@ -42,7 +43,7 @@
             display: block;
             width: 15rem;
             height: .5rem;
-            background-color: $verde;
+            background-color: #9f347b5e;
             margin-top: 1rem;
         }
     }

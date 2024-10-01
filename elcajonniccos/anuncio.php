@@ -42,6 +42,11 @@
 
             <p><?php echo $producto['descripcion'];?></p>
         </div>
+
+<br>
+      <a href="https://api.whatsapp.com/send?phone=50259462166" class="btn-whats">
+        Consultar Producto <i class="fa-brands fa-whatsapp"></i>
+      </a>
     </main>
 
     <?php
