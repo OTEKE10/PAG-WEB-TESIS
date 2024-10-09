@@ -11,7 +11,7 @@
         <h2>Productos en Venta</h2>
 
         <?php     
-            $limite = 10;
+            $limite = 100;
             include 'includes/templates/anuncios.php';
         ?>
 

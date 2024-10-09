@@ -468,29 +468,29 @@ h4 {
 }
 
 .dark-mode {
-  background-color: solid(#FFFFFF, 10);
+  background-color: solid(#000000, 10);
 }
 .dark-mode p {
-  color: #FFFFFF;
+  color: #7E60BF;
 }
 .dark-mode a, .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4 {
-  color: #000000;
+  color: #7E60BF;
 }
 .dark-mode .anuncio,
 .dark-mode .resumen-propiedad {
-  background-color: #333333;
+  background-color: #E4B1F0;
   border: 1px solid #333333;
 }
 .dark-mode .anuncio .precio,
 .dark-mode .resumen-propiedad .precio {
-  color: #71B100;
+  color: #7E60BF;
 }
 .dark-mode .anuncio .icono,
 .dark-mode .resumen-propiedad .icono {
   filter: invert(100%);
 }
 .dark-mode .texto-nosotros blockquote {
-  color: #FFFFFF;
+  color: #000000;
 }
 .dark-mode .formulario label,
 .dark-mode .formulario legend,
@@ -502,18 +502,12 @@ h4 {
 .dark-mode .formulario select {
   background-color: #333333;
   border: 1px solid #333333;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 /** UI **/
-.no-webp .inicio {
-  /* background-image: url(../img/header.jpg); */
-}
-
-.webp .inicio {
-  /* background-image: url(../img/header.webp); */
-}
-
+/* background-image: url(../img/header.jpg); */
+/* background-image: url(../img/header.webp); */
 .header {
   padding: 1rem 0 3rem 0;
 }
@@ -717,11 +711,11 @@ h4 {
 }
 
 .no-webp .imagen-contacto {
-  background-image: url("../img/encuentra2.jpg");
+  background-image: url("../img/encuentra.jpg");
 }
 
 .webp .imagen-contacto {
-  background-image: url("../img/encuentra2.webp");
+  background-image: url("../img/encuentra.webp");
 }
 
 .imagen-contacto {
@@ -735,11 +729,11 @@ h4 {
 .imagen-contacto h2 {
   font-size: 4rem;
   font-weight: 900;
-  color: #FFFFFF;
+  color: #7E60BF;
 }
 .imagen-contacto p {
   font-size: 1.8rem;
-  color: #FFFFFF;
+  color: #71B100;
 }
 
 @media (min-width: 768px) {
@@ -818,7 +812,7 @@ h4 {
 }
 
 .formulario input {
-  background: red !important;
+  background: #e9dfe7 !important;
 }
 .formulario p {
   font-size: 1.4rem;
@@ -840,7 +834,7 @@ h4 {
   padding: 1rem;
   display: block;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #e9dfe7 !important;
   border: 1px solid #e1e1e1;
   border-radius: 1rem;
   margin-bottom: 2rem;

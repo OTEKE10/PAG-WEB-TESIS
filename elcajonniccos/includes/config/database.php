@@ -1,7 +1,7 @@
 <?php
  
 function conectarDB() : mysqli {
-    $db = mysqli_connect('localhost', 'root', '1234', 'cajondeniccos_crud');
+    $db = mysqli_connect('localhost', 'root', 'wolverin10', 'cajondeniccos_crud');
     $db->set_charset("utf8");
  
     if(!$db) {

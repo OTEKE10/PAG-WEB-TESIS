@@ -24,7 +24,7 @@
                     <p>Escrito el: <span>20/10/2024</span> por: <span>Admin</span> </p>
 
                     <p>
-                        "Sentirte bien contigo mismo es vestir lo que te hace feliz, sin importar lo que piensen los demás."
+                        Sentirte bien contigo mismo es vestir lo que te hace feliz, sin importar lo que piensen los demás.
                     </p>
                 </a>
             </div>
@@ -41,11 +41,11 @@
 
             <div class="texto-entrada">
                 <a href="entrada2.php">
-                    <h4>Guía para saber si elegir articulos de plata u oro</h4>
+                    <h4>Tendencias de Moda, Cuidado Personal y Accesorios para esta Temporada</h4>
                     <p>Escrito el: <span>20/10/2024</span> por: <span>Admin</span> </p>
 
                     <p>
-                        Descubre cómo elegir entre plata y oro según tu tono de piel, estilo y ocasión para lograr el look perfecto
+                    Descubre las últimas tendencias en moda, cuidado personal y accesorios que te harán brillar esta temporada con los mejores looks y consejos para completar tu estilo.
                     </p>
                 </a>
             </div>

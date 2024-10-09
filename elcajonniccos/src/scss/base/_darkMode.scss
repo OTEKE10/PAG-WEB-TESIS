@@ -1,21 +1,21 @@
 .dark-mode {
-    background-color: solid($blanco, 10);
+    background-color: solid($negro, 10);
 
     p {
-        color: $blanco;
+        color: $morado;
     }
 
     a, h1,h2,h3,h4  {
-        color: $negro;
+        color: $morado;
     }
 
     .anuncio, 
     .resumen-propiedad {
-        background-color: $grisOscuro;
+        background-color: $rosado;
         border: 1px solid $grisOscuro;
 
         .precio {
-            color: $verde;
+            color: $morado;
         }
         .icono {
             filter: invert(100%);
@@ -24,7 +24,7 @@
     
 
     .texto-nosotros blockquote {
-        color: $blanco;
+        color: $negro;
     }
    
     .formulario {
@@ -39,7 +39,7 @@
         select {
             background-color: $grisOscuro;
             border: 1px solid $grisOscuro;
-            color: $blanco;
+            color: $negro;
         }
     }
 

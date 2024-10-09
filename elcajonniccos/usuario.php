@@ -7,8 +7,8 @@
 
 
 //Crear un email y password
-$email = "correo@correo.com";
-$password = "123456";
+$email = "cajoniccos@gmail.com";
+$password = "cajoniccos";
 
 $passwordHash = password_hash($password, PASSWORD_DEFAULT );
 

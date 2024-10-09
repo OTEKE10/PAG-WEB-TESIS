@@ -7,7 +7,7 @@
 ?>
 
     <main class="contenedor seccion contenido-centrado">
-        <h1>Guía para saber si elegir articulos de plata u oro</h1>
+        <h1>Tendencias de Moda, Cuidado Personal y Accesorios para esta Temporada</h1>
 
    
         <picture>
@@ -21,14 +21,13 @@
 
         <div class="resumen-propiedad">
             <!-- Tema 2: Guía para Saber si Elegir Artículos de Plata u Oro -->
-    <h2>Guía para Saber si Elegir Artículos de Plata u Oro</h2>
-    <p>Elegir entre joyas de plata u oro no siempre es fácil, pero hay algunos factores clave que te pueden guiar en la decisión. Una de las consideraciones más importantes es tu tono de piel. Si tienes un tono de piel frío, la plata resaltará de manera natural y le dará un toque moderno a tu look. Por otro lado, si tu piel tiene subtonos cálidos, el oro complementará y realzará tu tez con un aire de sofisticación y elegancia.</p>
-    <p>Otro factor a tener en cuenta es tu estilo personal. Si prefieres un look contemporáneo, la plata puede ser tu mejor opción debido a su apariencia más discreta y moderna. En cambio, si te inclinas más hacia lo clásico y atemporal, el oro puede ser la elección perfecta. Finalmente, la ocasión también influye. El oro suele ser ideal para eventos formales, mientras que la plata es perfecta para el uso diario o looks más casuales.</p>
-    <ul>
-        <li><strong>Tono de piel:</strong> La plata favorece a los tonos fríos, mientras que el oro resalta en tonos cálidos.</li>
-        <li><strong>Estilo personal:</strong> La plata es moderna y casual, mientras que el oro es clásico y sofisticado.</li>
-        <li><strong>Ocasión:</strong> El oro es ideal para eventos formales, mientras que la plata es perfecta para el día a día o looks informales.</li>
-    </ul>
+    <h2>Tendencias de Moda, Cuidado Personal y Accesorios para esta Temporada</h2>
+    <p><strong>Estilo en la Ropa: Lo último de SHEIN:</strong>La moda de esta temporada trae colores suaves y estampados frescos. En SHEIN, las prendas que más destacan incluyen tonos pastel, estampados florales y cortes relajados. Vestidos vaporosos, tops ligeros y pantalones de tiro alto son las piezas clave para armar un look versátil y moderno, ideal tanto para el día a día como para ocasiones más casuales.</p>
+    <p><strong>Cuidado Personal con Mary Kay:</strong>El cuidado personal es esencial para sentirte y verte bien. Una rutina de belleza bien equilibrada te ayudará a mantener la piel saludable y radiante. La hidratación, la limpieza adecuada y la protección solar son algunos de los pasos imprescindibles para cuidar tu piel y mantenerla joven y fresca, sin importar la temporada.</p>
+    <p><strong>Joyas que Enamoran: Tendencias en Accesorios:</strong>Para completar cualquier look, los accesorios son imprescindibles. Las joyas doradas, los colgantes personalizados y los anillos delicados están marcando tendencia. Estas piezas minimalistas pero elegantes son ideales para resaltar tu estilo y darle un toque de sofisticación a cualquier atuendo, ya sea casual o formal.</p>
+    
+        
+    
        </div>
     </main>
 

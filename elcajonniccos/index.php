@@ -11,7 +11,7 @@
 
         <div class="iconos-nosotros">
             <div class="icono">
-                <img src="build/img/icono1.svg" alt="Icono seguridad" loading="lazy">
+                <img src="build/img/icono1.svg" alt="Icono seguridad" loading="lazy">   
                 <h3>Variedad</h3>
                 <p>Ofrecemos los mejores productos en tendencia que reflejan una variedad entre estilo y comfort.</p>
             </div>
@@ -39,13 +39,12 @@
         ?>
 
         <div class="alinear-derecha">
-            <a href="anuncios.php" class="boton-verde">Ver Todas</a>
+            <a href="anuncios.php" class="boton-amarillo">Ver Todas</a>
         </div>
     </section>
 
     <section class="imagen-contacto">
         <h2>Encuentra los productos que desees</h2>
-        <p>Llena el formulario de contacto y nos comunicaremos contigo de inmediato</p>
         <a href="contacto.php" class="boton-amarillo">Contactános</a>
     </section>
 
@@ -68,7 +67,7 @@
                         <p class="informacion-meta">Escrito el: <span>20/10/2024</span> por: <span>Admin</span> </p>
 
                         <p>
-                            "Sentirte bien contigo mismo es vestir lo que te hace feliz, sin importar lo que piensen los demás."
+                            Sentirte bien contigo mismo es vestir lo que te hace feliz, sin importar lo que piensen los demás.
                         </p>
                     </a>
                 </div>
@@ -85,11 +84,11 @@
 
                 <div class="texto-entrada">
                     <a href="entrada2.php">
-                        <h4>Guía para saber si elegir articulos de plata u oro</h4>
+                        <h4>Tendencias de Moda, Cuidado Personal y Accesorios para esta Temporada</h4>
                         <p class="informacion-meta">Escrito el: <span>20/10/2024</span> por: <span>Admin</span> </p>
 
                         <p>
-                            Descubre cómo elegir entre plata y oro según tu tono de piel, estilo y ocasión para lograr el look perfecto.
+                        Descubre las últimas tendencias en moda, cuidado personal y accesorios que te harán brillar esta temporada con los mejores looks y consejos para completar tu estilo.
                         </p>
                     </a>
                 </div>
