@@ -1,0 +1,11 @@
+# Habilitar la reescritura de URLs
+RewriteEngine On
+
+# Establecer el directorio base (en caso de estar en un subdirectorio)
+# Ajusta /subdirectorio al nombre de tu directorio si no está en la raíz
+RewriteBase /
+
+# Redirigir todo a index.php o el archivo principal de la aplicación
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]

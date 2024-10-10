@@ -6,7 +6,8 @@ function incluirTemplate( $nombre ) {
 
 
 
-    include TEMPLATES_URL . "/${nombre}.php";
+    //include TEMPLATES_URL . "/${nombre}.php";
+    include TEMPLATES_URL . '/' . $nombre . '.php';
 }
 
 function estaAutenticado() : bool {
