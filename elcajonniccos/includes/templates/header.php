@@ -24,7 +24,7 @@
 <body>
     
     <header class="header inicio">
-        <img src="https://m.media-amazon.com/images/I/313r1gwkzwL._AC_UF894,1000_QL80_.jpg" class="img-bg" alt="">
+        <img src="/build/img/fondo.jpg" class="img-bg" alt="">
         <div class="contenedor contenido-header">
             <div class="barra">
                 <a href="/">
@@ -52,6 +52,6 @@
 
             
 
-            <h1 class="title-hero">Hecho con amor. De todo un poco</h1>
+            <h1 class="title-hero">HECHO CON AMOR</h1>
         </div>
     </header>

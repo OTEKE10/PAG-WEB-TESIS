@@ -58,7 +58,7 @@
 
         @include tablet {
             margin-right: 2rem;
-            font-size: 1.8rem;
+            font-size: 2rem;
 
             &:last-of-type {
                 margin-right: 0;
@@ -66,9 +66,9 @@
         }
 
         &:hover {
-            color: #e3b8d5;
+            color: #440A67;
             text-decoration: underline;
-            text-decoration-thickness: 4px;
+            text-decoration-thickness: 6px;
             text-underline-offset: 4px;
             transition: .40s;
           }

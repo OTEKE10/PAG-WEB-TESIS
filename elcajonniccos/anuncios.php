@@ -8,7 +8,7 @@
 
     <main class="contenedor seccion">
 
-        <h2>Productos en Venta</h2>
+        <h2><strong>PRODUCTOS EN VENTA</strong></h2>
 
         <?php     
             $limite = 100;

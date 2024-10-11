@@ -8,7 +8,7 @@
     }
 
     //Importar la conexion
-    require 'includes/config/database.php';
+    require_once 'includes/config/database.php';
     $db = conectarDB();
 
 

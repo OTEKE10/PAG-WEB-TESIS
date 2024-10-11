@@ -7,7 +7,7 @@
 ?>
 
     <main class="contenedor seccion">
-        <h1>Conoce sobre Nosotros</h1>
+        <h1><strong>CONOCE SOBRE NOSOTROS</strong></h1>
 
         <div class="contenido-nosotros">
             <div class="imagen">
@@ -36,7 +36,7 @@
 
 
     <section class="contenedor seccion">
-        <h1>Más Sobre Nosotros</h1>
+        <h1><strong>MAS SOBRE NOSOTROS</strong></h1>
 
         <div class="iconos-nosotros">
             <div class="icono">

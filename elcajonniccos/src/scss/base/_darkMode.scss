@@ -5,13 +5,17 @@
         color: $morado;
     }
 
-    a, h1,h2,h3,h4  {
+    h1,h2,h3,h4  {
         color: $morado;
+    }
+
+    a {
+        color: $blanco;
     }
 
     .anuncio, 
     .resumen-propiedad {
-        background-color: $rosado;
+        background-color: #EAB4F8;
         border: 1px solid $grisOscuro;
 
         .precio {

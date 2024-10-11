@@ -1,10 +1,10 @@
 <?php
-    include '.\includes\templates\header.php';
+    include './includes/templates/header.php';
 
 ?>
 
     <main class="contenedor seccion">
-        <h1>Nuestras Redes Sociales</h1>
+        <h1><strong>NUESTRAS REDES SOCIALES</strong></h1>
         <div class="contenido-nosotros">
             <div class="imagen">
                 <picture>

@@ -1,6 +1,6 @@
 <?php
     
-    
+        
     require 'includes/funciones.php';
     
     incluirTemplate('header');
@@ -10,29 +10,29 @@
 
 
     <main class="contenedor seccion">
-        <h1>Más Sobre Nosotros</h1>
+        <h1><strong>Mas sobre Nosotros</strong></h1>
 
         <div class="iconos-nosotros">
             <div class="icono">
                 <img src="build/img/icono1.svg" alt="Icono seguridad" loading="lazy">   
-                <h3>Variedad</h3>
+                <h3><strong>Variedad</strong></h3>
                 <p>Ofrecemos los mejores productos en tendencia que reflejan una variedad entre estilo y comfort.</p>
             </div>
             <div class="icono">
                 <img src="build/img/icono2.svg" alt="Icono Precio" loading="lazy">
-                <h3>Precio</h3>
+                <h3><strong>Precio</strong></h3>
                 <p>Precios accesibles y justos para productos de calidad que reflejan lo mejor de cada persona.</p>
             </div>
             <div class="icono">
                 <img src="build/img/icono3.svg" alt="Icono Tiempo" loading="lazy">
-                <h3>A Tiempo</h3>
+                <h3><strong>A Tiempo</strong></h3>
                 <p>Entregas a tiempo y seguras para que puedas tener tus productos lo mas rapido posible.</p>
             </div>
         </div>
     </main>
 
     <section class="seccion contenedor">
-        <h2>Categorias de Productos</h2>
+        <h2><strong>PRODUCTOS</strong></h2>
 
         <?php 
             
@@ -50,12 +50,12 @@
 
     <section class="imagen-contacto">
         <h2>Encuentra los productos que desees</h2>
-        <a href="contacto.php" class="boton-amarillo">Contactános</a>
+        <a href="contacto.php" class="boton-amarillo">Contáctanos</a>
     </section>
 
     <div class="contenedor seccion seccion-inferior">
         <section class="blog">
-            <h3>Nuestro Blog</h3>
+            <h3><strong>NUESTRO BLOG</strong></h3>
 
             <article class="entrada-blog">
                 <div class="imagen">
@@ -101,7 +101,7 @@
         </section>
 
         <section class="testimoniales">
-            <h3>Testimonios</h3>
+            <h3><strong>TESTIMONIOS</strong></h3>
             <img src="https://mms.img.susercontent.com/3880b612112770f1bea2404c8b31ac23" class="testimonial-img" alt="">
             <div class="testimonial">
                 <blockquote>

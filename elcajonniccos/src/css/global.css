@@ -10,7 +10,7 @@
 
 
 .title-hero {
-  color: #9f347b !important;
+  color: #AB46D2 !important;
 }
 
 .testimonial {
@@ -31,7 +31,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 0, 102, 0.2);
+  background-color: #E1AEFF;
   /* Fondo rosa semitransparente */
   backdrop-filter: blur(27px);
   /* Aplica el desenfoque */
@@ -200,7 +200,7 @@ fieldset {
   display: flex;
   width: 100%;
   color: white;
-  background: #ad6599;
+  background: #BA53DE;
   font-weight: bold;
   text-align: center;
   color: white !important;
@@ -208,7 +208,7 @@ fieldset {
 
 
 .anuncio {
-  background: #eddce9 !important;
+  background: #EAB4F8 !important;
   color: pink !important;
 }
 

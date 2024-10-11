@@ -1,12 +1,12 @@
 <?php
 
 //Importar la conexion
-require __DIR__ . '/../config/database.php';
+require_once __DIR__ . '/../config/database.php';
 $db = conectarDB();
 
 
 //Consultar
-$query = "SELECT * FROM productos LIMIT ${limite}";
+$query = "SELECT * FROM productos LIMIT " . $limite;
 
 //Obtener resultado
 $resultado = mysqli_query($db, $query);
