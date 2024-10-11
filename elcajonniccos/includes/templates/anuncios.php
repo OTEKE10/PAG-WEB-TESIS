@@ -1,16 +1,22 @@
 <?php
 
-//Importar la conexion
+// Importar la conexión
 require_once __DIR__ . '/../config/database.php';
 $db = conectarDB();
 
+// Verificar que la variable $limite esté definida
+$limite = isset($limite) ? intval($limite) : 10;
 
-//Consultar
+// Consultar
 $query = "SELECT * FROM productos LIMIT " . $limite;
 
-//Obtener resultado
+// Obtener resultado
 $resultado = mysqli_query($db, $query);
 
+// Comprobar si la consulta tuvo éxito
+if (!$resultado) {
+    die("Error en la consulta: " . mysqli_error($db));
+}
 
 ?>
 

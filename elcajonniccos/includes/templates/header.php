@@ -46,12 +46,12 @@
                         <?php endif; ?>
                     </nav>
                 </div>
-   
                 
             </div> <!--.barra-->
-
-            
-
             <h1 class="title-hero">HECHO CON AMOR</h1>
+
+
         </div>
+
+                
     </header>
